@@ -1,0 +1,195 @@
+{% extends 'base.html' %}
+
+{% load static %}
+
+
+{% block head %}
+
+<link rel="stylesheet" href="{% static 'css/intro/intro.css' %}">
+<link rel="stylesheet" href="{% static 'css/intro/responsive.css' %}">
+
+{% endblock head %}
+
+{% block body %}
+
+    <div class="main">
+        <div class="main-intro">
+       
+        <div class="intro-para">
+            <h1>Get Real World Project Experience<br> in Web Development with Goo Business</h1>
+            <P> &bull; Get handson experience by applying your skills in real world project<br> after that you will be able to make any web development project by yourself
+                </P><br>
+                <p>&bull; Build intuition on the inner workings of various projects,<br> a foundational skill for any top software engineer</p><br>
+    
+                <p>&bull; Build real-world projects by mastering React,<br> MERN, JavaScript, etc</p>
+        </div>
+    </div>
+
+        <section class="contact" id="contactPage">
+            <h2>The first but giant step towards your dream<br>
+                Full Stack Development career with Goo Business</h2>
+            <form>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"><br>
+                <label for="gradu-year">Graduation Year</label><br>
+                <input type="number" id="gradu-year" name="graduation-year"><br>
+                <label for="job-title">Job Title</label><br>
+                <input type="text" id="job-title" name="job-title"><br>
+                <label for="mob-num">Mobile Number</label><br>
+                <input type="number" id="mob-num" name="mob-num"><br>
+                <span>You’ll receive an OTP on this number for verification</span><br>
+                <button id="form-btn1">Continue</button><br>
+                <span class="terms-and-condition">By creating an account I have read and agree to Goo Business’s <a href="#">Terms</a> and <a href="#">Privacy Policy</a></span>
+    
+            </form>
+        </section>
+    </div> 
+
+    
+    <div class="about-course">
+        <h1>Full Stack Web Development Course Overview</h1>
+        <div class="course-container">
+            <div class="course-box">
+                <span class="course-heading">About Goo Business's Full Stack Developer Course</span>
+                <p class="course-para"> &bullet; Learn practical coding skills through real-life projects</p>
+                <p class="course-para"> &bullet; Structured curriculum covering programming<br> constructs, DSA, CS fundamentals, and<br> software/system design taught by industry veterans<br> via live classes</p>
+                <p class="course-para"> &bullet; Industry-expert faculty and 1:1 mentorship with a<br> peer group of 2,000+ Scaler students and alumni.</p>
+
+            </div>
+            <div class="course-box">
+                <span class="course-heading">What is Full Stack Web Development and why is it important to learn?</span>
+                <p class="course-para"> &bullet; Full Stack Development is a software profession/stream where a developer deals with both the Frontend (client-side) and Backend (server-side) of a tech product.</p>
+                <p class="course-para"> &bullet; A Full Stack Developer is proficient in several technologies that help in developing a robust tech product, and thus play a major role in making decisions for the company.</p>
+                <!-- <p class="course-para"> &bullet; It is one of the high-demand jobs in the software industry. </p> -->
+            </div>
+            <div class="course-box">
+                <span class="course-heading">What skills will I master with this full stack course?</span><br>
+                <p class="course-para"> Skills that you will master with this full-stack course are:</p>
+                <p class="course-para"> &bullet; Programming constructs, algorithms, and data structures.</p>
+                <p class="course-para"> &bullet; Develop software and systems using OOP principles and system design techniques.</p>
+                <p class="course-para"> &bullet; Build full-stack apps using technologies like REST APIs, MVC, and databases like MongoDB.</p>  
+            </div>
+        </div>
+    </div>
+    <div class="course-overview">
+        <h2>Key highlights of the Goo Business Academy's program</h2>
+        <p>Our program is designed to help you become an expert in Full Stack Web Development and provide real world projects experience to scale up in your tech career.</p>
+
+        <div class="container">
+            <div class="box" id="box1">
+                <img src="{% static 'intro-img/img1.png'%}" alt="" width="180px"><br>
+                <span class="box-intro">Live classes led by faculty members<br> with hands-on experience</span>
+            </div>
+            <div class="box" id="box2">
+                <img src="{% static 'intro-img/img2.png'%}" alt="" width="180px" ><br>
+                <span class="box-intro">Intensive practical experience through<br> real-life projects and applications</span>
+            </div>
+            <div class="box" id="box3">
+                <img src="{% static 'intro-img/img3.jpeg'%}" alt="" width="180px" height="120px"><br>
+                <span class="box-intro">Regular 1:1 mentorship from product<br> industry veterans</span>
+            </div>
+
+            
+        </div>
+
+        
+    </div>
+    <div style="height: 100px;"></div>
+
+    <div class="career-services">
+        <span class="career-intro">Career Services</span><br>
+        <p>Along with upskilling and preparing you to be a solid engineer, we will help you with your job search and interview preparation as well!</p>
+        <div class="container2">
+            <div class="box" id="container2-box1">
+                <img src="{% static 'intro-img/careerPage-img.png'%}" alt="" width="100px">
+                <p>Access job opportunities from our <b class="bold">600+ employer partners</b></p>
+            </div>
+            <div class="box">
+                <img src="{% static 'intro-img/careerPage-img2.png'%}" alt="" width="100px">
+                <p>Exchange job opportunities with our extensive <b class="bold">20K+ Scaler student community</b></p>
+            </div>
+            <div class="box">
+                <img src="{% static 'intro-img/careerPage-img6.png'%}" alt="" width="100px">
+                <p>Practice mock interviews  <b class="bold">with people working in the industry</b></p>
+            </div>
+            <div class="box">
+                <img src="{% static 'intro-img/careerPage-img4.png'%}" alt="" width="100px">
+                <p>Optimize your resume & LinkedIn profile  <b class="bold">with our experienced experts</b></p>
+            </div>
+            
+        </div>
+    </div>
+    <div class="connect">
+        <p>Connect with an Academic Counsellor</p>
+        <a href="#contactPage">connect</a>
+    </div>
+    <h2 class="FAQ-heading">Full Stack Web Development Course FAQs</h2>
+    <div class="course-FAQ">
+        <div class="FAQ-box ">
+        <p class="ques">What is Goo Business's full-stack development program?</p>
+        <p class="ans">Goo Business offers a structured, flexible and guided learning program for software engineers to accelerate their career. This program is open for all software<br> engineers irrespective of the # of years of work experience or their current place of work. Our features are:</p>
+        <p class="ans">&bull; Structured curriculum that covers CS Fundamentals and System Design via a project based approach. This curriculum has been industry-vetted and<br> reverse-engineered by analysing what it takes to be a great engineer</p>
+         <p class="ans">&bull; Live classes that are held twice a week, with the timings determined by students in the batch</p>
+          <p class="ans">Aspirational peer group and access to ScalerChat, our internal communication tool wherein you can collaborate with others on projects, get authentic interview<br> experiences and share job-referrals</p>
+          <p class="ans">&bull; Flexible curriculum that help you continue learning despite your hectic work schedule. We provide recorded lectures to view later and also allow you to move between batches at NO cost</p>
+    </div>
+
+    <div class="FAQ-box">
+        <p class="ques">Who is eligible for Goo Business's Full Stack course?</p>
+        <p class="ans">&bull; Software engineers with any number of years of experience can choose to join Goo Business's Full Stack program. Applicants currently in college (1st, 2nd, 3rd or<br> final year of college) could consider to join Scaler Edge, our college student focused product. Please visit www.scaler.com/edge for more detail</p>
+    </div>
+
+    <div class="FAQ-box">
+        <p class="ques">When are the live classes held?</p>
+        <p class="ans"> Live classes are normally held 2 times a week, with the exact class days and timings being determined by the batch. However, given all learners would be software<br> engineers that are currently working, the classes would be held in the late evening or night on weekdays and any suitable time over the weekends.</p>
+    </div>
+
+    <div class="FAQ-box">
+        <p class="ques">What happens if I miss a lecture in this online full stack developer course?</p>
+        <p class="ans">All lectures are recorded and you will have access to the recordings after the lecture is completed.</p>
+    </div>
+
+    <div class="FAQ-box">
+        <p class="ques">Are full stack developers in demand in 2024?</p>
+        <p class="ans">A full-stack developer is one of the high-demand jobs in the industry. Companies pay them handsomely since they contribute the most to software projects. Thus, whether you are a fresher or an experienced developer, you will always be in demand in the software industry, with great opportunities waiting for you.</p>
+    </div>
+
+    <div class="FAQ-box">
+        <p class="ques">What are the roles and responsibilities of a Full Stack Developer?</p>
+        <p class="ans">Full stack developers are computer programmers who are proficient in both front and back end coding-</p>
+        <p class="ans">&bull; Designing user interactions on websites </p>
+        <p class="ans">&bull; Developing servers and databases for website functionality. </p>
+        <p class="ans">&bull; Coding for mobile platforms. </p>
+        <p class="ans">&bull; Designing & developing APIs </p>
+    </div>
+
+    <div class="FAQ-box">
+        <p class="ques">Is full-stack web development difficult to learn?</p>
+        <p class="ans">&bull; Full-stack developers possess a wide range of abilities and are expected to have comprehensive programming knowledge. <br>But, its definitely possible to learn these skills with dedication and practice.</p>
+    </div>
+
+    <div class="FAQ-box">
+        <p class="ques">What is the process of resolving doubts?</p>
+        <p class="ans">When a student has a doubt, he/she would raise a 'Help Request'. This 'Help Request' would be circulated within the peer group first in order to foster a sense of giving<br> back and create a sense of community. In parallel, the Teaching Assistant is also alerted with regards to this 'Help Request'. The doubt can then be either clarified via <br>the peer group or via the Teaching Assistants via text or via video call. If a video call is done, the Teaching Assistant can also share his/her screen to resolve the issue<br> and help you understand the concept better. These video calls are done 1:1. Full Stack program. Applicants currently in college (1st, 2nd, 3rd or<br> final year of college) could consider to join Scaler Edge, our college student focused product. Please visit www.scaler.com/edge for more detail</p>
+    </div>
+
+    <div class="FAQ-box">
+        <p class="ques">Could someone help me do mock interviews?</p>
+        <p class="ans">Yes! We strive to help you prepare for your job interviews via mock interviews. Mock interviews can be done in two parts:</p>
+        <p class="ans">&bull; Students can choose to do mock interviews with their mentors (as mentioned in the 'Mentor' section of these FAQs).</p>
+        <p class="ans">&bull; We would connect you with a working professional in the company in which you would be interviewing. This would help you get in-depth knowledge of the company<br> and do a more focused mock-interview to get prepared.</p>
+    </div>
+
+   
+    </div>
+{% endblock body %}
+
+
+
+
+
+
+
+
+
+
