@@ -40,6 +40,30 @@ def index(request):
     
     return render(request, 'index.html')
 
-def intro(request):
+# def intro(request):
 
-    return render(request, 'intro.html')
+#     return render(request, 'intro.html')
+
+def service(request):
+
+    return render(request, 'service.html')
+def one(request):
+
+    return render(request, 'one.html')
+def two(request):
+
+    return render(request, 'two.html')
+
+def three(request):
+
+    return render(request, 'three.html')
+
+def four(request):
+
+    return render(request, 'four.html')
+def five(request):
+
+    return render(request, 'five.html')
+
+
+

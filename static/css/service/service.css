@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.hero-sec {
+    margin-top: 2rem;
+    margin-left: 500px;
+
+}
+.hero-sec img {
+    border-radius: 1rem;
+    box-shadow: 8px 8px 16px lightgray;
+}
+h2 {
+   text-align: center; 
+   margin-top: 3rem;
+   font-size: 3rem;
+   color: indigo;
+   font-family: sans-serif;
+  
+}
+.services {
+    font-family: sans-serif;
+    height: 50vh;
+    width: 100%;
+    margin-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    
+    display: flex;
+    z-index: -1;
+   
+   
+    overflow: scroll;
+    padding: 0.5rem;
+    
+    
+}
+.service-card {
+    margin-top: 1rem;
+    /* margin-left: 0.25rem; */
+    margin-left: 2rem;
+    margin-right: 1rem;
+  
+    
+
+}
+.Card img {
+    object-fit: fill;
+   
+    border-radius: 0.5rem;
+    /* box-shadow: 4px 4px 8px lightgray; */
+    
+}
+.Card img:hover {
+    /* box-shadow: 6px 6px 12px lightgray; */
+    transform: scale(1.02);
+}
+.card-desc {
+    line-height: 1rem;
+}
+.desc-para {
+    font-weight: 200;
+    font-size: medium;
+    color: black;
+}
+.card-desc p {
+    margin-top: 1rem;
+    font-size: 1.15rem;
+    font-weight: 600;
+    color:blue;
+    cursor: pointer;
+}
+.services-price {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    margin-left: 0.25rem;
+    color: green;
+}
+.offer {
+  font-size: large;
+}
+.grab-now {
+    display: inline-block;
+    font-size: 1.25rem;
+    margin-top: 1rem;
+    margin-left: 4rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+   color: darkgoldenrod;
+   text-align: center;
+   cursor: pointer;
+}

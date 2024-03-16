@@ -1,0 +1,6 @@
+@media screen and (max-width:740px) {
+    .main img {
+        width: 270px;
+        margin-left: 1rem;
+    }
+}

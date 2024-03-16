@@ -1,0 +1,100 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Home page of Goo Business The best B2B Lead Generation Company{% endblock title %}
+
+{% block head %}
+
+<link rel="stylesheet"  href="{% static 'css/service/service.css' %}">
+
+
+{% endblock head %}
+
+{% block body %}
+
+   
+
+
+     <!-- hero-section -->
+     <div class="hero-sec">
+        <img src="{% static 'service-imgs/email-temp.jpeg'%}" alt="" width="600px">
+    </div>
+
+    <!-- Email Marketing -->
+
+    <h2>Our Email Marketing Services</h2>
+    <div class="services">
+     
+   
+     <!-- Email Template item -->
+     <div class="service-card">
+         <div class="Card"><a href="/one"><img class="s-img" src="{% static 'service-imgs/one.png'%}"width="260px" height="160px" alt=""></a></div>
+         <div class="card-desc">
+             <a href="#">
+                 <p>Order for Email&nbsp; services...</p>
+
+             </a><br>
+             <span class="services-price">&#8377; 499 <span class="desc-para">2000 Mail/Month</span></span><br><br>
+             <span class="offer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;60%Off</span><br>
+             <a href="/order"><span class="grab-now">Grab Now</span></a>
+         </div>
+     </div>
+
+     <div class="service-card">
+         <div class="Card"><a href="/two"><img class="s-img" src="{% static 'service-imgs/two.png'%}"width="260px" height="160px" alt=""></a></div>
+         <div class="card-desc">
+             <a href="#">
+                 <p>Order of VIP Email Services  </p>
+
+             </a><br>
+             <span class="services-price">&#8377; 999 <span class="desc-para">50000 Mail/Month</span></span><br><br>
+             <span class="offer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;65%Off</span><br>
+             <a href="/order"><span class="grab-now">Grab Now</span></a>
+         </div>
+     </div>
+
+     <div class="service-card">
+         <div class="Card"><a href="/three"><img class="s-img" src="{% static 'service-imgs/email-temp2.png'%}"width="260px" height="160px" alt=""></a></div>
+         <div class="card-desc">
+             <a href="#">
+                 <p>Order for Prime Email services</p>
+
+             </a><br>
+             <span class="services-price">&#8377; 1499 <span class="desc-para">100,000 Mail/Month</span></span><br><br>
+             <span class="offer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;75%Off</span><br>
+             <a href="/order"><span class="grab-now">Grab Now</span></a>
+         </div>
+     </div>
+
+     <div class="service-card">
+         <div class="Card"><a href="/four"><img class="s-img" src="{% static 'service-imgs/six.png'%}"width="260px" height="160px" alt=""></a></div>
+         <div class="card-desc">
+             <a href="#">
+                 <p>Order for Exclusive services<br> </p>
+
+             </a><br>
+             <span class="services-price">&#8377; 1999 <span class="desc-para">200,000 Mail/Month</span></span><br><br>
+             <span class="offer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;70%Off</span><br>
+             <a href="/order"><span class="grab-now">Grab Now</span></a>
+         </div>
+
+         
+     </div>
+     <div class="service-card">
+        <div class="Card"><a href="/five"><img class="s-img" src="{% static 'service-imgs/five.png'%}"width="260px" height="160px" alt=""></a></div>
+        <div class="card-desc">
+            <a href="#">
+                <p>Order for Exclusive Premium<br> </p>
+
+            </a><br>
+            <span class="services-price">&#8377; 2499 <span class="desc-para">400,000 Mail/Month</span></span><br><br>
+            <span class="offer">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;80%Off</span><br>
+            <a href="/order"><span class="grab-now">Grab Now</span></a>
+
+        </div>
+        </div>
+        </div>
+        
+        <!-- linked js file -->
+        <script src="{% static 'JS/app.js' %}"></script>
+{% endblock body %}
